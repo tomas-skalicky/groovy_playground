@@ -23,6 +23,7 @@ Servers/
 .classpath
 .settings/
 .recommenders/
+.groovy/
 
 
 #####
