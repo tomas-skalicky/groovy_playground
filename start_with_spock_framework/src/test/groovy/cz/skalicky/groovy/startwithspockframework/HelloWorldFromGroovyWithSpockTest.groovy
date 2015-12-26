@@ -15,7 +15,7 @@ class HelloWorldFromGroovyWithSpockTest extends Specification {
 
     @Test
     def "test say hello with Spock"() {
-        HelloWorldFromGroovy helloWorld = new HelloWorldFromGroovy()
+        def helloWorld = new HelloWorldFromGroovy()
         expect:
             helloWorld.sayHello(name) == result
             
