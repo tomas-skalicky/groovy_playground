@@ -1,0 +1,33 @@
+#####
+# Gradle foldes and files except Gradle Wrapper stuff (see
+# https://docs.gradle.org/current/dsl/org.gradle.api.tasks.wrapper.Wrapper.html)
+######
+.gradle/
+
+
+#####
+# Compiled sources
+#####
+*.class
+bin/
+build/
+test-output/
+
+
+#####
+# Eclipse folders and files
+#####
+.metadata/
+Servers/
+.project
+.classpath
+.settings/
+.recommenders/
+
+
+#####
+# IntelliJ folders and files
+#####
+.idea/
+*.iml
+
